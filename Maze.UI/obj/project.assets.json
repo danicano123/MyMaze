@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Maze.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Maze.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Maze.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Maze.Logic/1.0.0": {
+      "type": "project",
+      "path": "../Maze.Logic/Maze.Logic.csproj",
+      "msbuildProject": "../Maze.Logic/Maze.Logic.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Maze.Logic >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Daniel Steven Cano Z\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Daniel Steven Cano Z\\Desktop\\C#Proyects\\Maze2023-1\\Maze\\Maze.UI\\Maze.UI.csproj",
+      "projectName": "Maze.UI",
+      "projectPath": "C:\\Users\\Daniel Steven Cano Z\\Desktop\\C#Proyects\\Maze2023-1\\Maze\\Maze.UI\\Maze.UI.csproj",
+      "packagesPath": "C:\\Users\\Daniel Steven Cano Z\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Daniel Steven Cano Z\\Desktop\\C#Proyects\\Maze2023-1\\Maze\\Maze.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Daniel Steven Cano Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Daniel Steven Cano Z\\Desktop\\C#Proyects\\Maze2023-1\\Maze\\Maze.Logic\\Maze.Logic.csproj": {
+              "projectPath": "C:\\Users\\Daniel Steven Cano Z\\Desktop\\C#Proyects\\Maze2023-1\\Maze\\Maze.Logic\\Maze.Logic.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

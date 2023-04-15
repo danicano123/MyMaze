@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Maze.UI/1.0.0": {
+        "dependencies": {
+          "Maze.Logic": "1.0.0"
+        },
+        "runtime": {
+          "Maze.UI.dll": {}
+        }
+      },
+      "Maze.Logic/1.0.0": {
+        "runtime": {
+          "Maze.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Maze.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Maze.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
